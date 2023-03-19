@@ -10,6 +10,8 @@ export function FriendsList({ friends }) {
               return 'red';
             case false:
               return 'green';
+            default:
+              return '';
           }
         };
         return (
