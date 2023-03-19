@@ -1,4 +1,4 @@
-import {} from './transactionhistory.css';
+import './transactionhistory.css';
 
 export function TransactionHistory({ items }) {
   return (

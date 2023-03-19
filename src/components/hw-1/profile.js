@@ -1,4 +1,4 @@
-import {} from './profile.css';
+import './profile.css';
 
 export function Profile({ username, tag, location, avatar, stats }) {
   return (

@@ -1,4 +1,4 @@
-import {} from './stats.css';
+import './stats.css';
 
 export function Statistics({ title, stats }) {
   return (

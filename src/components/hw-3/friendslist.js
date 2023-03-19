@@ -1,4 +1,4 @@
-import {} from './friendslist.css';
+import './friendslist.css';
 
 export function FriendsList({ friends }) {
   return (
