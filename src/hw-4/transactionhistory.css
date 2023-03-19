@@ -1,0 +1,21 @@
+.transaction-history {
+  color: black;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.transaction-header {
+  background-color: rgb(100, 100, 211);
+  width: 3200px;
+  height: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.transaction {
+  background-color: rgb(161, 159, 159);
+}
+
+.transaction:nth-of-type(2n) {
+  background-color: white;
+}

@@ -1,0 +1,46 @@
+.statistics {
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.title {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-list {
+  display: flex;
+  list-style: none;
+  color: white;
+  padding: 0;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.stat-list li:nth-child(1) {
+  background-color: blue;
+}
+.stat-list li:nth-child(2) {
+  background-color: purple;
+}
+.stat-list li:nth-child(3) {
+  background-color: red;
+}
+.stat-list li:nth-child(4) {
+  background-color: orange;
+}
+.stat-list li:nth-child(5) {
+  background-color: green;
+}

@@ -1,0 +1,36 @@
+.friend-list {
+  margin-top: 100px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.friend-item {
+  display: flex;
+  gap: 15px;
+  width: 300px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  box-shadow: 3px 3px rgb(175, 171, 171);
+}
+
+.friend-status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.friend-avatar {
+  width: 70px;
+  height: 70px;
+  margin-top: 5px;
+}
+.friend-name {
+  margin-top: 25px;
+  font-size: 26px;
+  font-weight: 700;
+}
