@@ -1,12 +1,12 @@
-import user from './hw-1/user.json';
-import data from './hw-2/data.json';
-import friends from './hw-3/friends.json';
-import transactions from './hw-4/transactions.json';
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
 
-import { Profile } from './hw-1/profile';
-import { Statistics } from 'components/hw-2/stats';
-import { FriendsList } from 'components/hw-3/friendslist';
-import { TransactionHistory } from 'components/hw-4/transactionhistory';
+import { Profile } from './Profile/Profile';
+import { Statistics } from 'components/Statistics/Statistics';
+import { FriendsList } from 'components/FriendsList/Friendslist';
+import { TransactionHistory } from 'components/TransactionHistory/Transactionhistory';
 
 export const App = () => {
   return (
