@@ -1,4 +1,5 @@
 import './stats.css';
+import PropTypes from 'prop-types';
 
 export function Statistics({ title, stats }) {
   return (
@@ -18,3 +19,8 @@ export function Statistics({ title, stats }) {
     </section>
   );
 }
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.number,
+};

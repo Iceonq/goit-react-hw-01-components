@@ -1,4 +1,5 @@
 import './transactionhistory.css';
+import PropTypes from 'prop-types';
 
 export function TransactionHistory({ items }) {
   return (
@@ -25,3 +26,14 @@ export function TransactionHistory({ items }) {
     </table>
   );
 }
+
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      type: PropTypes.string,
+      amount: PropTypes.number,
+      currency: PropTypes.string,
+    })
+  ),
+};
